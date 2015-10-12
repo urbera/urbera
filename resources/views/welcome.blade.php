@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Laravel</title>
+        <title>urbera</title>
 
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
 
@@ -30,6 +30,11 @@
                 display: inline-block;
             }
 
+            .content img{
+                height:150px;
+                width: auto;
+            }
+
             .title {
                 font-size: 96px;
             }
@@ -38,7 +43,9 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5</div>
+                <div><img src="imgs/logo.png"></div>
+                <div class="title">urbera</div>
+                <p>#theurbanway</p>
             </div>
         </div>
     </body>
